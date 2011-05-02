@@ -6,6 +6,9 @@
 
 [Installation]
 
+[Build & Installation Video]
+
+
 = Guide =
 [Inspecting the cluster]
 
