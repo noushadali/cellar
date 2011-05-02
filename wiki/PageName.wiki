@@ -6,7 +6,7 @@
 
 [Installation]
 
-[Build and Install Video]
+[Howto Build and Install Video]
 
 
 = Guide =
