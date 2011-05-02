@@ -1,0 +1,10 @@
+#summary Wiki Index Page.
+
+= Introduction =
+
+[Building]
+[Installation]
+
+= Guide =
+[Inspecting the cluster]
+[Managing groups]
