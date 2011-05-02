@@ -6,10 +6,10 @@
 
 [Installation]
 
-[ Build and Install Video]
+[InstallationVideoWalkthrough]
 
 
 = Guide =
-[ Inspecting the cluster]
+[CellarBasics]
 
-[ Managing groups]
+[ManagingGroups]
