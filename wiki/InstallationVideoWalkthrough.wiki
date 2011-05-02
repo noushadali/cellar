@@ -1,0 +1,6 @@
+#summary Cellar build & install video walk through.
+
+=Video=
+If you prefer to watch the whole installation procedure on video...
+
+<wiki:video url="http://www.youtube.com/watch?v=EM_5fh6XA1M"/>
