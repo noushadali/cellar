@@ -1,0 +1,20 @@
+#summary Cellar basic commands.
+
+= List cluster nodes =
+
+To list all the nodes of the cluster
+ 
+{{{
+cluster:lis-nodes
+}}}
+
+Description:
+
+Lists all nodes and mark the current node with a star
+
+Sample output:
+
+|| ||No.|| Host Name||Port||ID||
+|| + ||1||192.168.1.101||5701|| 192.168.1.101:5701||
+|| ||2||192.168.1.101||5702|| 192.168.1.101:5702||
+___
