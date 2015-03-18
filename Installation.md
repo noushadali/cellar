@@ -1,0 +1,10 @@
+# Installing Cellar on Karaf #
+
+After Cellar has been build it can be installed on Karaf using the "features" concpet.
+
+# Details #
+
+```
+features:addurl mvn:net.cellar/cellar/1.0/xml/features
+features:install cellar
+```

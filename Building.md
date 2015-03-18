@@ -1,0 +1,13 @@
+# Requirement #
+  * Java 1.6
+  * Maven 2.2.1 or higher
+  * Git
+
+## Instructions ##
+from the command line
+
+```
+git clone git://github.com/iocanel/cellar.git
+cd cellar
+mvn clean install
+```

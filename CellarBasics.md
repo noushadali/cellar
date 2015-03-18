@@ -1,0 +1,54 @@
+# List cluster nodes #
+
+To list all the nodes of the cluster
+
+```
+cluster:list-nodes
+```
+
+Description:
+
+Lists all nodes and mark the current node with a star
+
+Sample output:
+
+| |No.| Host Name|Port|ID|
+|:|:--|:---------|:---|:-|
+| + |1 |192.168.1.101|5701| 192.168.1.101:5701|
+|  |2 |192.168.1.101|5702| 192.168.1.101:5702|
+
+
+
+# Mute or deaf a node to cluster events #
+
+Each node of the cluster can be marked as mute or deaf, in order to stop listening or broadcasting events to the cluster. This is done by turning on/off the event consumer or event producer.
+
+**Consumer**
+
+You may wish to "lock" a node so that its not affected by cluster events. The easiest way to do so is by switching its consumer to off.
+
+```
+cluster:consumer-stop 192.168.1.101:5702
+```
+or
+```
+cluster:consumer-start 192.168.1.101:5702
+```
+
+**Producer**
+
+You may wish to have a node not broadcast cluster events. This can be very usefull when performing maintenance tasks on a node.
+
+```
+cluster:producer-stop 192.168.1.101:5702
+```
+or
+```
+cluster:producer-start 192.168.1.101:5702
+```
+
+
+Sample output:
+|Node                 |Status|
+|:--------------------|:-----|
+|192.168.1.101:5702   |false|
